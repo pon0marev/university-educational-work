@@ -1,0 +1,54 @@
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.andrey.ponomarev.MainActivityLab4_2">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <ImageView
+        android:id="@+id/lab4ImageForRadioButton"
+        android:layout_width="wrap_content"
+        android:layout_height="276dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="14dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/lab4RadioGroup"
+        app:srcCompat="@drawable/a4" />
+
+    <RadioGroup
+        android:layout_width="368dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="8dp"
+        android:layout_marginLeft="8dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginRight="8dp"
+        app:layout_constraintRight_toRightOf="parent"
+        android:id="@+id/lab4RadioGroup">
+
+        <RadioButton
+            android:id="@+id/lab4RadioButtonA4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="Audi A4" />
+
+        <RadioButton
+            android:id="@+id/lab4RadioButtonA5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Audi A5" />
+
+        <RadioButton
+            android:id="@+id/lab4RadioButtonA6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Audi A6" />
+
+    </RadioGroup>
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,68 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.andrey.ponomarev.MainActivityLab2_3">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ProgressBar
+            android:id="@+id/lab3ProgressBar1"
+            style="?android:attr/progressBarStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginEnd="120dp"
+            android:layout_marginTop="8dp"
+            android:visibility="invisible"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginRight="8dp"
+            app:layout_constraintRight_toRightOf="parent" />
+
+        <ProgressBar
+            android:id="@+id/lab3ProgressBar2"
+            style="?android:attr/progressBarStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/lab3ProgressBar1"
+            android:layout_alignTop="@+id/lab3ToggleButton"
+            android:visibility="invisible"
+            android:layout_marginTop="26dp"
+            app:layout_constraintTop_toBottomOf="@+id/lab3ProgressBar1"
+            android:layout_marginRight="120dp"
+            app:layout_constraintRight_toRightOf="parent" />
+
+        <Switch
+            android:id="@+id/lab3Switch"
+            android:layout_width="169dp"
+            android:layout_height="47dp"
+            android:layout_above="@+id/lab3ProgressBar2"
+            android:layout_toStartOf="@+id/lab3ProgressBar1"
+            android:text="Обработчик Switch"
+            android:layout_marginLeft="8dp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginTop="8dp" />
+
+        <ToggleButton
+            android:id="@+id/lab3ToggleButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/lab3Switch"
+            android:layout_below="@+id/lab3ProgressBar1"
+            android:checked="false"
+            android:onClick="lab3ToggleButtonClick"
+            android:text="ToggleButton"
+            android:layout_marginTop="27dp"
+            app:layout_constraintTop_toBottomOf="@+id/lab3Switch"
+            android:layout_marginLeft="89dp"
+            app:layout_constraintLeft_toLeftOf="parent" />
+    </android.support.constraint.ConstraintLayout>
+
+</RelativeLayout>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_lab1"
+            android:icon="@drawable/ic_check_circle_black_24dp"
+            android:title="Лабораторная работа 1" />
+        <item
+            android:id="@+id/nav_lab2"
+            android:icon="@drawable/ic_check_circle_black_24dp"
+            android:title="Лабораторная работа 2" />
+        <item
+            android:id="@+id/nav_lab3"
+            android:icon="@drawable/ic_check_circle_black_24dp"
+            android:title="Лабораторная работа 3" />
+        <item
+            android:id="@+id/nav_lab4"
+            android:icon="@drawable/ic_check_circle_black_24dp"
+            android:title="Лабораторная работа 4" />
+        <item
+            android:id="@+id/nav_lab5"
+            android:icon="@drawable/ic_check_circle_black_24dp"
+            android:title="Лабораторная работа 5" />
+        <item
+            android:id="@+id/nav_lab6"
+            android:icon="@drawable/ic_check_circle_black_24dp"
+            android:title="Лабораторная работа 6" />
+        <item
+            android:id="@+id/nav_lab7"
+            android:icon="@drawable/ic_check_circle_black_24dp"
+            android:title="Лабораторная работа 7" />
+        <item
+            android:id="@+id/nav_lab8"
+            android:icon="@drawable/ic_check_circle_black_24dp"
+            android:title="Лабораторная работа 8" />
+        <item
+            android:id="@+id/nav_lab9"
+            android:icon="@drawable/ic_check_circle_black_24dp"
+            android:title="Лабораторная работа 9" />
+        <item
+            android:id="@+id/nav_lab10"
+            android:icon="@drawable/ic_check_circle_black_24dp"
+            android:title="Лабораторная работа 10" />
+        <item
+            android:id="@+id/nav_lab11"
+            android:icon="@drawable/ic_check_circle_black_24dp"
+            android:title="Лабораторная работа 11" />
+    </group>
+
+    <item android:title="Дополнительно">
+        <menu>
+            <item
+                android:id="@+id/nav_help"
+                android:icon="@android:drawable/ic_menu_help"
+                android:title="Помощь" />
+        </menu>
+    </item>
+
+</menu>

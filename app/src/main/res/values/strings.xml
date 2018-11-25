@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">Ponomarev</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Выполнено</string>
+    <string name="taskDone">Задание выполнено</string>
+    <string name="title_activity_main_lab1">1</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="title_activity_main_lab2">2</string>
+    <string name="title_activity_main_lab3">3</string>
+    <string name="title_activity_main_lab4">4</string>
+    <string name="lab1_2Student">Студент группы МИ-31-15\nПономарёв Андрей</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_main_lab5">5</string>
+    <string name="title_activity_main_lab5_2_details">5 Информация</string>
+    <string name="title_activity_main_lab6">6</string>
+    <string name="title_activity_main_activit_lab6">7</string>
+    <string name="title_activity_main_lab8">8</string>
+    <string name="tab_text_1">Tab 1</string>
+    <string name="tab_text_2">Tab 2</string>
+    <string name="tab_text_3">Tab 3</string>
+    <string name="title_activity_main_lab9">9</string>
+    <string name="title_activity_main_lab10">10</string>
+    <string name="title_activity_main_lab11">11</string>
+</resources>

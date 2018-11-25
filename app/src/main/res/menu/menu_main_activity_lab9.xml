@@ -1,0 +1,45 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto"
+      xmlns:tools="http://schemas.android.com/tools"
+      tools:context="com.example.andrey.ponomarev.MainActivityLab8">
+
+    <item android:title="Грузовые атомобили">
+        <menu>
+            <item
+                android:id="@+id/volvo"
+                android:title="Volvo"/>
+            <item
+                android:id="@+id/scania"
+                android:title="Scania"/>
+            <item
+                android:id="@+id/man"
+                android:title="Man"/>
+        </menu>
+    </item>
+    <item android:title="Автобусы">
+        <menu>
+            <item
+                android:id="@+id/setra"
+                android:title="Setra"/>
+            <item
+                android:id="@+id/mercedes"
+                android:title="Mercedes"/>
+            <item
+                android:id="@+id/isuzu"
+                android:title="ISUZU"/>
+        </menu>
+    </item>
+    <item android:title="Легковые автомобили">
+        <menu>
+            <item
+                android:id="@+id/bmw"
+                android:title="BMW X4"/>
+            <item
+                android:id="@+id/ford"
+                android:title="Ford Galaxy"/>
+            <item
+                android:id="@+id/toyota"
+                android:title="Toyota Yaris"/>
+        </menu>
+    </item>
+</menu>
